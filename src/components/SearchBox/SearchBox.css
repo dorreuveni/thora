@@ -1,0 +1,90 @@
+.search-form{
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.543);
+    height: fit-content;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.results-search-form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scrollbar-width:none;
+}
+
+.checkbox-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    gap:5%;
+    padding: 2%;
+    border-bottom: 1px black solid;
+    font-size: 0.8em;
+}
+
+.results-search-form .checkbox-form{
+    width: 90%;
+    gap:1%;
+}
+
+
+.check-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.check-box-option{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+}
+
+.form-submit-button{
+    width: 25%;
+    aspect-ratio: 5.5;
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgb(13, 13, 132), rgba(56, 31, 198, 0.612)) ;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.form-clear-button{
+    width: 25%;
+    aspect-ratio: 5.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-clear-button:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.search-buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.academy-select{
+    color: black;
+    scrollbar-width: none;
+}

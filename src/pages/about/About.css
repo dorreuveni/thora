@@ -1,0 +1,81 @@
+.about-page-container{
+    width: 100%;
+    direction: rtl;
+}
+
+.about-top-bar{
+    direction: rtl;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    align-items: end;
+}
+
+.about-main-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-name-and-avatar{
+    z-index: 2;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    gap:20px;
+    margin-inline-start: 8vw;
+   
+}
+
+.about-name{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.about-avatar{
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    border-radius: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.about-avatar img{
+    width: 100%;
+    object-fit:scale-down;
+}
+
+.about-location{
+    font-size: 1.3rem;
+}
+
+.description{
+    direction: rtl;
+    padding-inline:10vw;
+    padding-block: 5vh;
+}
+.description-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.description-body{
+    font-size: 1.1rem;
+}
+
+.link-button{
+    padding-inline:10vw;
+}
+
+.link-button button{
+    height: 50px;
+    aspect-ratio: 3.5;
+    background-image: linear-gradient(blue, black);
+    color: white;
+    cursor: pointer;
+}

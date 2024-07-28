@@ -1,0 +1,27 @@
+.excel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.file-input {
+    display: none;
+}
+
+.add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,34 @@
+.admin-places-container{
+    width: 90%;
+    direction: rtl;
+    margin-inline: 5%;
+}
+
+.admin-places-header{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+    width: 55%;
+    margin-block: 10px;
+}
+
+.admin-places-header-item{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.admin-place-container{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+    width: 55%;
+    margin-block: 10px;
+}
+
+.admin-places-search{
+    width : 30vw;
+    height: 40px;
+    margin-block: 20px;
+    border-radius: 25px;
+    padding-inline: 20px;
+}

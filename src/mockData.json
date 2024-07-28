@@ -1,0 +1,46 @@
+{
+    "places":[
+        {
+            "name":"המכון הגבוה לתורה - בית המדרש",
+            "city":"רמת גן",
+            "region":["מרכז"],
+            "address":"אוניברסיטת בר אילן",
+            "academies":["אוניברסיטת בר אילן"],
+            "gender":"male",
+            "min-hour":1,
+            "max-hour":20,
+            "single-or-married":"all",
+            "dorms":false,
+            "type":["year", "open"]
+
+        },
+        {
+            "name":"חי רועי - בני דוד",
+            "city":"עלי",
+            "region":["בנימין ושומרון","מרכז","ירושלים והסביבה"],
+            "address":"עלי",
+            "academies":["אוניברסיטת אריאל", "האוניברסיטה העברית", "מכללת עזריאלי"],
+            "gender":"male",
+            "min-hour":10,
+            "max-hour":20,
+            "single-or-married":"all",
+            "dorms":true,
+            "type":["year"]
+
+        },
+        {
+            "name":"חי רועי - בני דוד",
+            "city":"עלי",
+            "region":["בנימין ושומרון","מרכז","ירושלים והסביבה"],
+            "address":"עלי",
+            "academies":["אוניברסיטת אריאל", "האוניברסיטה העברית", "מכללת עזריאלי"],
+            "gender":"male",
+            "min-hour":10,
+            "max-hour":20,
+            "single-or-married":"all",
+            "dorms":true,
+            "type":["year"]
+
+        }
+    ]
+}

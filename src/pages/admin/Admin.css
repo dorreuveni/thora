@@ -1,0 +1,126 @@
+.admin-container{
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.admin-container-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    height: 100vh;
+}
+
+
+.tab-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    border-bottom: 1px black solid;
+    margin-inline: 5%;
+}
+
+.unselected-tab, .selected-tab{
+    cursor: pointer;
+    width:15%;
+    border: 1px black solid;
+    height: 60px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    box-shadow: 2px 2px black;
+}
+
+.selected-tab{
+    background-image: linear-gradient(blue, black);
+    color: white;
+}
+
+.unselected-tab{
+    background-image: linear-gradient(rgb(229, 229, 252), rgb(194, 194, 194));
+    color: black;
+}
+
+.access-denied-container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.access-denied-title {
+    font-size: 24px;
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    background-color: #4cae4c;
+}
+.error-message {
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+.sign-out-button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #ff6b6b, #ff4757);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 50%;
+  margin: 10px;
+}
+
+.sign-out-button:hover {
+  background: linear-gradient(45deg, #ff4757, #ff6b6b);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.admin-top-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}

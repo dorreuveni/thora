@@ -1,0 +1,72 @@
+.place-card-container{
+    aspect-ratio: 1.4;
+    border: 1px black solid;
+    min-width: 20vw;
+    border-radius: 15px;
+    gap: 0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.place-card-container:hover{
+    transform: rotateX(15deg);
+}
+
+.place-card-background{
+    width: 100%;
+    height: 90%;
+    object-fit:cover;
+    position: absolute;
+}
+
+.place-card-info-line{
+    direction:rtl;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    transition: all 0.5s linear ;
+    padding-top: 30px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+
+.place-card-avatar{
+    position:absolute;
+    top:-40px;
+    inset-inline-start: 5px;
+    object-fit: scale-down;
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.place-card-avatar-img{
+    width: 100%;
+    object-fit:scale-down;
+}
+
+.info-line-main-title{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-inline-start: 25px;
+}
+
+.info-line-location{
+    font-size: 22px;
+    font-weight: 500;
+    margin-inline-start: 25px;
+    position: relative;
+
+}
